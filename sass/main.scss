@@ -1,3 +1,27 @@
-body {
-	font-family: Roboto, sans-serif;
-}
+@import "./utils/mixins";
+@import "./utils/placeholders";
+@import "./utils/vars";
+@import "./utils/visually-hidden";
+
+@import "./base/common";
+@import "./base/container";
+@import "./base/reset";
+
+@import "./components/address-link";
+@import "./components/backdrop";
+@import "./components/close-button";
+@import "./components/logo";
+@import "./components/modal-form";
+@import "./components/social-icons-list";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/benefits";
+@import "./layout/servise";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+
+@import "./pages/portfolio";
+
+@import "./vendors/normalize";
