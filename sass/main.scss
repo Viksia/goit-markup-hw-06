@@ -1,11 +1,17 @@
+// Utils
+
 @import "./utils/mixins";
 @import "./utils/placeholders";
 @import "./utils/vars";
 @import "./utils/visually-hidden";
 
+// Base
+
 @import "./base/common";
 @import "./base/container";
 @import "./base/reset";
+
+// Сomponents
 
 @import "./components/address-link";
 @import "./components/backdrop";
@@ -13,6 +19,8 @@
 @import "./components/logo";
 @import "./components/modal-form";
 @import "./components/social-icons-list";
+
+// Layout
 
 @import "./layout/header";
 @import "./layout/hero";
@@ -22,6 +30,10 @@
 @import "./layout/clients";
 @import "./layout/footer";
 
+// Pages
+
 @import "./pages/portfolio";
+
+// Vendors
 
 @import "./vendors/normalize";
