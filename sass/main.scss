@@ -16,6 +16,7 @@
 @import "./components/address-link";
 @import "./components/backdrop";
 @import "./components/close-button";
+@import "./components/filter";
 @import "./components/logo";
 @import "./components/modal-form";
 @import "./components/social-icons-list";
@@ -36,4 +37,4 @@
 
 // Vendors
 
-@import "./vendors/normalize";
+@import "node_modules/modern-normalize/modern-normalize.css";

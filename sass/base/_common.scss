@@ -20,6 +20,17 @@ body {
 	letter-spacing: 0.03em;
 }
 
+.is-hidden {
+	pointer-events: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.thumb {
+	position: relative;
+	overflow: hidden;
+}
+
 img {
 	display: block;
 	max-width: 100%;
